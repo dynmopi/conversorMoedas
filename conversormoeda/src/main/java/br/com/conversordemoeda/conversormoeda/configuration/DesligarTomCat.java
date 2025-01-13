@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.Configuration;
 
-@Configuration
+// se utilizado, marque com @Configuration
 public class DesligarTomCat {
 
     private final ConfigurableApplicationContext context;

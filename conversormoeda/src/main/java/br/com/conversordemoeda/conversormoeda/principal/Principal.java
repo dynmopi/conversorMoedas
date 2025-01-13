@@ -28,7 +28,5 @@ public class Principal {
         leitura.nextLine(); // um enter para continuar a aplicação
 
         menu.iniciar();
-//        menu.mostrarMenuEOperar();
-
     }
 }
