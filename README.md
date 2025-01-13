@@ -31,7 +31,8 @@ Siga os passos para conseguir executar o projeto.
 
 Pronto, agora espere a execução do Spring, e use a aplicação.
 
-[foto]
+![image](https://github.com/user-attachments/assets/53a1754f-7b08-4f24-86e3-916af480bdfc)
+
 
 ### 2. Através do Terminal do Intellij
 
