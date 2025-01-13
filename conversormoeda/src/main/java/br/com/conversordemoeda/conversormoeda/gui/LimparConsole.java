@@ -1,6 +1,8 @@
 package br.com.conversordemoeda.conversormoeda.gui;
 
+import org.springframework.context.annotation.Configuration;
 
+@Configuration
 public class LimparConsole {
     public void limparConsole(){
         try {

@@ -1,7 +1,10 @@
 package br.com.conversordemoeda.conversormoeda.gui;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class TelaInicial {
-    public static void splash(){
+    public void splash(){
         System.out.println("""  
     ____                            _              \s
       / ___| ___  _ __   __ _ _ __ ___| |__   ___ _ __\s
@@ -18,6 +21,6 @@ public class TelaInicial {
             |=|=| Conversor de Moedas |=|=|              \s
      Otimize suas cotações e ganhe mais produtividade!     \s    
                 """);
-        System.out.println("\t Pressione Qualquer botão para iniciar");
+        System.out.println("\t Pressione enter para iniciar");
     }
 }

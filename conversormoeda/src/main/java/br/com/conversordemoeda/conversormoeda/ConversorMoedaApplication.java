@@ -1,5 +1,6 @@
 package br.com.conversordemoeda.conversormoeda;
 
+import br.com.conversordemoeda.conversormoeda.principal.Principal;
 import br.com.conversordemoeda.conversormoeda.service.ConversaoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
@@ -12,13 +13,16 @@ public class ConversorMoedaApplication implements CommandLineRunner {
 	@Autowired
 	private ConversaoService conversaoService;
 
+	@Autowired
+	private Principal principal;
+
+
 	public static void main(String[] args) {
 		SpringApplication.run(ConversorMoedaApplication.class, args);
 	}
 
 	@Override
 	public void run(String... args) throws Exception {
-		double valorConvertido = conversaoService.converter("USD", "BRL", 100.0);
-		System.out.println("Valor convertido: " + valorConvertido);
+		principal.aplicacao();
 	}
 }
