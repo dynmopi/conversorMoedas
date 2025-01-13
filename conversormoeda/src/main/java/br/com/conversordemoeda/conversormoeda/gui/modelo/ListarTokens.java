@@ -7,8 +7,8 @@ import org.springframework.web.client.RestTemplate;
 @Component
 public class ListarTokens {
     // instacia a apikey diretamente nas variáveis de ambiente
-    private final String API_KEY = System.getenv("API_KEY");
-
+//    private final String API_KEY = System.getenv("API_KEY");
+    private final String API_KEY = "a1773d61488cf7a58a9a55d6";
     // metodo que lista todas as moedas compativeis para as conversoes
     public void listarTokens() {
         RestTemplate restTemplate = new RestTemplate();

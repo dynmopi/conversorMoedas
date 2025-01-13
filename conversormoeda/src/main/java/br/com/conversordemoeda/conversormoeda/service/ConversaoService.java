@@ -6,7 +6,8 @@ import org.springframework.web.client.RestTemplate;
 @Service
 public class ConversaoService {
 
-    private final String API_KEY = System.getenv("API_KEY");
+//    private final String API_KEY = System.getenv("API_KEY");
+    private final String API_KEY = "a1773d61488cf7a58a9a55d6";
     private final String URL = "https://v6.exchangerate-api.com/v6/" + API_KEY + "/latest/";
 
     public double converter(String primeiraMoeda, String segundaMoeda, double valor){
